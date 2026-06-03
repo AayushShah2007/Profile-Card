@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Profile card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card {
+            height: 450px;
+            width: 300px;
+            background-color: rgb(153, 157, 157);
+            box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.418);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image {
+            height: 100%;
+            padding-left: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+
+            img {
+                height: 300px;
+                width: 280px;
+                border-radius: 10px;
+            }
+        }
+
+        .details {
+            height: 150px;
+            width: 300px;
+            display: table-column;
+
+            .name {
+                padding-left: 15px;
+                padding-top: 3px;
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .data {
+                padding-left: 15px;
+                padding-right: 5px;
+                font-size: 15px;
+                color: rgba(221, 230, 230, 0.845);
+                padding-top: 3px;
+            }
+
+            .info {
+                height: 150px;
+                width: 300px;
+                display: flex;
+
+                img {
+                    height: 20px;
+                    padding-top: 12px;
+                    padding-left: 15px;
+                }
+                p {
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    color: rgba(255, 255, 255, 0.859);
+                }
+                i{
+                    padding-top: 14px;
+                    padding-left: 15px;
+                    font-size: 20px;
+                }
+                .follow
+                {
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 15px;
+                    border: none;
+                    margin-top: 9px;
+                    margin-left: 50px;
+                    font-size: 20px;
+                    color: rgb(108, 107, 107);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="https://th.bing.com/th/id/R.ec93fb2f84fbdd5f48b7d54f38b4ba9b?rik=l65ni9xcIAXKoA&riu=http%3a%2f%2fassets.vogue.com%2fphotos%2f5876fe0a8a28e998768824d3%2fmaster%2fpass%2fdavid-gandy.jpg&ehk=NvnDBEzPzv5J1GPbog%2f2E8FfUAkJQu4EsD6HFxz3AiM%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+        </div>
+        <div class="details">
+            <div class="name">Aayush Shah</div>
+            <div class="data">Lorem ipsum, dolor sit amet conctetur adipisicing elit. Commodi, similique!</div>
+            <div class="info">
+                <img src="https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png"
+                    alt="">
+                <p>315</p>
+                <i class="fa-solid fa-comment" style="color: rgb(87, 97, 115);"></i>
+                <p>49</p>
+                <button class="follow">Follow +</button>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
